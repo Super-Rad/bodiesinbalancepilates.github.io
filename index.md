@@ -4,7 +4,7 @@ title: Bodies In Balance Therapeutic Pilates & Building A Strong Foundation
 heading: Home
 ---
 
-__Welcome to Bodies in TESTBalance__
+__Welcome to Bodies in Balance__
 
 Established in 1992 by Mary Sue Corrado, PMA®-CPT, Bodies in Balance
 was Seattle’s first Pilates studio. We are dedicated to helping you
