@@ -2,8 +2,7 @@
 
 
 TODO:
-- icons for dropdown
-  (may be helpful)[https://webdesignerhut.com/pure-css-dropdown-menu-fontawesome-icons/]
+- icons for dropdown -> [may be helpful](https://webdesignerhut.com/pure-css-dropdown-menu-fontawesome-icons/)
 - change background layout color
 - connect correct links for layout -> css!
 - insert content for other pages
