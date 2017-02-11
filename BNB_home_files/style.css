@@ -760,7 +760,7 @@ select {
 	}
 
 	#primary.centered {
-		float: none !important;
+		float: right !important;
 		margin-left: auto;
 		margin-right: auto;
 		}
