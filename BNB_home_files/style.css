@@ -1,4 +1,23 @@
 
+body {
+	color: #555;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-family:'Cantata One',serif; 
+	font-weight:400	
+}
+
+.menus {
+	min-height:1px;
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	position:relative;	
+}
+
 
 
 /*-- Dropdown Menue --*/
@@ -21,18 +40,13 @@ li.dropdown {display: inline-block;}
 
 
 
+/*
 
 
 
 
 
 
-
-body {
-	color: #555;
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-	}
 
 a, h1, h2, h3, h4, h5, h6 {
 	color: #333;
@@ -109,6 +123,7 @@ table {
 
 /* =HTML5 Defaults
 -------------------------------------------------------------- */
+/*
 del {
 	color: red;
 	text-decoration: line-through;
@@ -122,6 +137,7 @@ ins {
 
 /* =Inputs
 -------------------------------------------------------------- */
+/*
 input,
 textarea {
 	padding: 8px;
@@ -172,15 +188,18 @@ select {
 
 /* =Assitive Text
 -------------------------------------------------------------- */
+/*
 .screen-reader-text,
 .remove {
 	position: absolute !important;
 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+/*
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
 /* =Header
 -------------------------------------------------------------- */
+/*
 .title-logo-wrapper,
 #site-logo,
 #site-title {
@@ -261,6 +280,7 @@ select {
 
 /* =Header Widgets
 -------------------------------------------------------------- */
+/*
 .header-widget {
 	padding: 30px 20px;
 	}
@@ -299,6 +319,7 @@ select {
 
 /* Navigation 
 -------------------------------------------------------------- */
+/*
 #nav-wrapper {
 	position: relative;
 	z-index: 500;
@@ -461,6 +482,7 @@ select {
 
 /* =Mobile Navigation
 -------------------------------------------------------------- */
+/*
 #mobile-menu {
 	width: 100%;
 	background: #1b1b1b;
@@ -587,6 +609,7 @@ select {
 
 /* =Featured
 -------------------------------------------------------------- */
+/*
 #featured, #featured article {
 	margin: 0;
 	}
@@ -597,6 +620,7 @@ select {
 
 /* =Sticky
 -------------------------------------------------------------- */
+/*
 .sticky {
 	background: #ADADAD;
 	background: rgba( 50,50,50,0.5);
@@ -663,6 +687,7 @@ select {
 
 /* =Main
 -------------------------------------------------------------- */
+/*
 #main {
 	margin-top: 40px;
 	}
@@ -675,6 +700,7 @@ select {
 
 /* =Article
 -------------------------------------------------------------- */
+/*
 article {
 	margin-bottom: 30px;
 	float: left;
@@ -842,6 +868,7 @@ blockquote {
 
 /* =Front Page Columns
 -------------------------------------------------------------- */
+/*
 .two-col-wrapper,
 .three-col-wrapper {
 	background: url(library/images/line.gif) repeat-y 50% 0;
@@ -917,6 +944,7 @@ blockquote {
 
 /* =404
 -------------------------------------------------------------- */
+/*
 article.error404 .entry-title {
 	font-size: 500%;
 	text-align: center;
@@ -939,12 +967,14 @@ article.error404 .entry-title {
 
 /* =Aside
 -------------------------------------------------------------- */
+/*
 .format-aside p {
 	margin-top: 0;
 	}
 
 /* =Quote
 -------------------------------------------------------------- */
+/*
 .format-quote .entry-content {
 	font-size: 18px;
 	line-height: 1.3;
@@ -989,6 +1019,7 @@ cite {
 
 /* =Status
 -------------------------------------------------------------- */
+/*
 .format-status .post-format {
 	margin-bottom: 4px;
 	}
@@ -1037,6 +1068,7 @@ cite {
 
 /* =Link
 -------------------------------------------------------------- */
+/*
 .format-link p {
 	margin-top: 0;
 	}
@@ -1055,6 +1087,7 @@ cite {
 
 /* =Gallery
 -------------------------------------------------------------- */
+/*
 .gallery {
   margin: 10px -10px;
 }
@@ -1115,6 +1148,7 @@ cite {
 
 /* =Attachments
 -------------------------------------------------------------- */
+/*
 p.attachment img {
 	margin: 0;
 	}
@@ -1126,6 +1160,7 @@ p.attachment img {
 
 /* =Tags
 -------------------------------------------------------------- */
+/*
 .tags a {
 	text-decoration: none;
 	background: #f6f6f6;
@@ -1145,6 +1180,7 @@ p.attachment img {
 
 /* =Pagination
 -------------------------------------------------------------- */
+/*
 #pagination,
 #post-pagination,
 #posts-pagination {
@@ -1208,6 +1244,7 @@ p.attachment img {
 
 /* =Comments
 -------------------------------------------------------------- */
+/*
 #comments,
 #respond,
 .commentlist,
@@ -1367,6 +1404,7 @@ p.attachment img {
 
 /* =Archives
 -------------------------------------------------------------- */
+/*
 #archive-header,
 .page-title {
 	margin: 0 0 30px;
@@ -1403,6 +1441,7 @@ p.attachment img {
 
 /* =Sidebar
 -------------------------------------------------------------- */
+/*
 .widget {
 	margin-bottom: 30px;
 	width: 100%;
@@ -1560,6 +1599,7 @@ p.attachment img {
 
 /* =Footer
 -------------------------------------------------------------- */
+/*
 #footer {
 	border-top: 1px solid #000;
 	background: #444;
@@ -1584,6 +1624,7 @@ p.attachment img {
 
 /* =Sticky Footer
 -------------------------------------------------------------- */
+/*
 html, body {
 	height: 100%;
 	}
@@ -1609,6 +1650,7 @@ html, body {
 
 /* =Videos
 -------------------------------------------------------------- */
+/*
 video {
 	max-width: 100%;
 	height: auto;
@@ -1632,6 +1674,7 @@ video {
 
 /* =WordPress Core
 -------------------------------------------------------------- */
+/*
 .alignnone {
     margin: 5px 20px 20px 0;
 	}
@@ -1735,6 +1778,7 @@ a img.aligncenter {
 
 /* =Admin bar fix
 -------------------------------------------------------------- */
+/*
 #wp-admin-bar-theme_previews .ab-item { height: auto !important; }
 #admin-bar-premium-themes { float: left; }
 #admin-bar-premium-themes p { color: #000 !important; }
@@ -1745,6 +1789,7 @@ a img.aligncenter {
 
 /* =bbPress & BuddyPress
 -------------------------------------------------------------- */
+/*
 #bbpress-forums #bbp-your-profile fieldset label[for] {
 	width: 25%;
 	}
@@ -1809,6 +1854,7 @@ a img.aligncenter {
 
 /* =Responsive stuff
 -------------------------------------------------------------- */
+/*
 @media ( max-width: 960px ) {
 	.row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12{width:100%;margin-bottom:20px}
 	.row .row > div:last-child,.two-col-wrapper{margin-bottom:0 !important}
