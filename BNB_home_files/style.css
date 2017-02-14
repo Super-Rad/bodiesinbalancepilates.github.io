@@ -444,7 +444,7 @@ select {
 			}
 
 		#site-sub-navigation li:before {
-			/*content: "\2022";*/
+			content: "\f0d7";
 			font-size: 18px;
 			position: absolute;
 			right: -8px;
@@ -494,14 +494,14 @@ select {
 				}
 
 		.menus li a:not(:last-child):after {
-			content: "\f10c"; /*arrow on menu \f0d7*/
+			content: "\f0d7"; /*arrow on menu \f0d7*/
 			font-family: FontAwesome;
 			float: right;
 			margin: 0 0 0 10px;
 			}
 
 			.menus ul ul li a:not(:last-child):after {
-				content: "\f0c8";
+				content: "\f0d7";
 				}
 
 	.menus ul ul {
