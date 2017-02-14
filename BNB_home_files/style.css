@@ -494,7 +494,7 @@ select {
 				}
 
 		.menus li a:not(:last-child):after {
-			/* content: "\f0d7"; arrow on menu */
+			content: "\f0d7"; /*arrow on menu*/
 			font-family: FontAwesome;
 			float: right;
 			margin: 0 0 0 10px;
