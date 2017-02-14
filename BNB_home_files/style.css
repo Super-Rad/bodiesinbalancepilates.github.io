@@ -1,52 +1,129 @@
+/*
+Theme Name: Magazine Basic
+Theme URI: https://themes.bavotasan.com/themes/magazine-basic-wordpress-theme/
+Author: c.bavota
+Author URI: http://bavotasan.com
+Description: Create a truly unique design with Magazine Basic, a lightweight and fully responsive HTML5 theme based on the Gridiculous boilerplate. Use the Customizer to add your own background, page layout, site width and more. Distinguish each post with one of the eight supported post formats, such as: Video, Image, Aside, Status, Audio, Quote, Link and Gallery. Install JetPack to display each of your galleries through a tiled view and jQuery carousel. Compatible with bbPress & BuddyPress. Built using Bootstrap. Magazine Basic uses Google Fonts for improved typeface readability and works perfectly in desktop browsers, tablets and handheld devices. For a live demo go to http://demos.bavotasan.com/magazine-basic/.
+Version: 3.0.7
+Tags: white, black, gray, light, silver, one-column, two-columns, right-sidebar, left-sidebar, fluid-layout, fixed-layout, custom-background, custom-header, custom-menu, custom-colors, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready, theme-options, buddypress, responsive-layout
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
 
+/* =Normalize.css v2.1.0 by Nicolas Gallagher - http://necolas.github.com/normalize.css/
+-------------------------------------------------------------- */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0}
+a:focus{outline:none}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:0.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+
+/* =Clearfix by Nicolas Gallagher
+-------------------------------------------------------------- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table;}
+.row:after,.clearfix:after{clear:both;}
+.row,.clearfix{zoom:1;}
+
+/* =Gridiculous
+-------------------------------------------------------------- */
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word}
+body{font-size:100%;line-height:1.6875}
+.grid{margin:0 auto;max-width:1200px;min-width:320px;width:100%}
+img{max-width:100%;height:auto}
+.wfull{width:100%;max-width:100%}
+.w320{max-width:320px}
+.w640{max-width:640px}
+.w960{max-width:960px}
+.row{width:100%;margin-bottom:20px}
+.row .row{width:auto;margin:0 -20px}
+.c1{width:8.33%}
+.c2{width:16.66%}
+.c3{width:25%}
+.c4{width:33.33%}
+.c5{width:41.66%}
+.c6{width:50%}
+.c7{width:58.33%}
+.c8{width:66.66%}
+.c9{width:75%}
+.c10{width:83.33%}
+.c11{width:91.66%}
+.c12,.w320 .c1,.w320 .c2,.w320 .c3,.w320 .c4,.w320 .c5,.w320 .c6,.w320 .c7,.w320 .c8,.w320 .c9,.w320 .c10,.w320 .c11,
+.w640 .c1,.w640 .c2,.w640 .c3,.w640 .c4,.w640 .c5,.w640 .c6,.w640 .c7,.w640 .c8,.w640 .c9,.w640 .c10,.w640 .c11{width:100%}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{min-height:1px;float:left;padding-left:20px;padding-right:20px;position:relative}
+.s1{margin-left:8.33%}
+.s2{margin-left:16.66%}
+.s3{margin-left:25%}
+.s4{margin-left:33.33%}
+.s5{margin-left:41.66%}
+.s6{margin-left:50%}
+.s7{margin-left:58.33%}
+.s8{margin-left:66.66%}
+.s9{margin-left:75%}
+.s10{margin-left:83.33%}
+.s11{margin-left:91.66%}
+.push1{left:8.33%}
+.push2{left:16.66%}
+.push3{left:25%}
+.push4{left:33.33%}
+.push5{left:41.66%}
+.push6{left:50%}
+.push7{left:58.33%}
+.push8{left:66.66%}
+.push9{left:75%}
+.push10{left:83.33%}
+.push11{left:91.66%}
+.pull1{right:8.33%}
+.pull2{right:16.66%}
+.pull3{right:25%}
+.pull4{right:33.33%}
+.pull5{right:41.66%}
+.pull6{right:50%}
+.pull7{right:58.33%}
+.pull8{right:66.66%}
+.pull9{right:75%}
+.pull10{right:83.33%}
+.pull11{right:91.66%}
+.end{float:right!important}
+
+/* =General
+-------------------------------------------------------------- */
 body {
 	color: #555;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
-	background-color: white;
-}
-
-h1 {font-family:'Cantata One',serif; font-weight:400}
-
-
-
-.menus {
-	min-height:1px;
-	float:left;
-	padding-left:20px;
-	padding-right:20px;
-	position:relative;	
-}
-
-
-
-/*-- Dropdown Menue --*/
-ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #444;}
-li {float: left;}
-li a, .dropbtn {display: inline-block; color: white; text-align: center; padding: 8px 16px; text-decoration: none;}
-li a:hover, .dropdown:hover .dropbtn {background-color: #000;}
-li.dropdown {display: inline-block;}
-.dropdown-content {display: none; position: absolute; background-color: #000; min-width: 160px; box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
-.dropdown-content a {color: white; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
-.dropdown-content a:hover {background-color: #f1f1f1}
-.dropdown:hover .dropdown-content {display: block;}
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
-
-
+	}
 
 a, h1, h2, h3, h4, h5, h6 {
 	color: #333;
@@ -123,7 +200,6 @@ table {
 
 /* =HTML5 Defaults
 -------------------------------------------------------------- */
-/*
 del {
 	color: red;
 	text-decoration: line-through;
@@ -137,7 +213,6 @@ ins {
 
 /* =Inputs
 -------------------------------------------------------------- */
-/*
 input,
 textarea {
 	padding: 8px;
@@ -188,18 +263,15 @@ select {
 
 /* =Assitive Text
 -------------------------------------------------------------- */
-/*
 .screen-reader-text,
 .remove {
 	position: absolute !important;
 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-/*
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
 /* =Header
 -------------------------------------------------------------- */
-/*
 .title-logo-wrapper,
 #site-logo,
 #site-title {
@@ -280,7 +352,6 @@ select {
 
 /* =Header Widgets
 -------------------------------------------------------------- */
-/*
 .header-widget {
 	padding: 30px 20px;
 	}
@@ -317,9 +388,8 @@ select {
 		padding: 0;
 		}
 
-/* Navigation 
+/* =Main Navigation
 -------------------------------------------------------------- */
-/*
 #nav-wrapper {
 	position: relative;
 	z-index: 500;
@@ -482,7 +552,6 @@ select {
 
 /* =Mobile Navigation
 -------------------------------------------------------------- */
-/*
 #mobile-menu {
 	width: 100%;
 	background: #1b1b1b;
@@ -609,7 +678,6 @@ select {
 
 /* =Featured
 -------------------------------------------------------------- */
-/*
 #featured, #featured article {
 	margin: 0;
 	}
@@ -620,7 +688,6 @@ select {
 
 /* =Sticky
 -------------------------------------------------------------- */
-/*
 .sticky {
 	background: #ADADAD;
 	background: rgba( 50,50,50,0.5);
@@ -687,7 +754,6 @@ select {
 
 /* =Main
 -------------------------------------------------------------- */
-/*
 #main {
 	margin-top: 40px;
 	}
@@ -700,7 +766,6 @@ select {
 
 /* =Article
 -------------------------------------------------------------- */
-/*
 article {
 	margin-bottom: 30px;
 	float: left;
@@ -868,7 +933,6 @@ blockquote {
 
 /* =Front Page Columns
 -------------------------------------------------------------- */
-/*
 .two-col-wrapper,
 .three-col-wrapper {
 	background: url(library/images/line.gif) repeat-y 50% 0;
@@ -944,7 +1008,6 @@ blockquote {
 
 /* =404
 -------------------------------------------------------------- */
-/*
 article.error404 .entry-title {
 	font-size: 500%;
 	text-align: center;
@@ -967,14 +1030,12 @@ article.error404 .entry-title {
 
 /* =Aside
 -------------------------------------------------------------- */
-/*
 .format-aside p {
 	margin-top: 0;
 	}
 
 /* =Quote
 -------------------------------------------------------------- */
-/*
 .format-quote .entry-content {
 	font-size: 18px;
 	line-height: 1.3;
@@ -1019,7 +1080,6 @@ cite {
 
 /* =Status
 -------------------------------------------------------------- */
-/*
 .format-status .post-format {
 	margin-bottom: 4px;
 	}
@@ -1068,7 +1128,6 @@ cite {
 
 /* =Link
 -------------------------------------------------------------- */
-/*
 .format-link p {
 	margin-top: 0;
 	}
@@ -1087,7 +1146,6 @@ cite {
 
 /* =Gallery
 -------------------------------------------------------------- */
-/*
 .gallery {
   margin: 10px -10px;
 }
@@ -1148,7 +1206,6 @@ cite {
 
 /* =Attachments
 -------------------------------------------------------------- */
-/*
 p.attachment img {
 	margin: 0;
 	}
@@ -1160,7 +1217,6 @@ p.attachment img {
 
 /* =Tags
 -------------------------------------------------------------- */
-/*
 .tags a {
 	text-decoration: none;
 	background: #f6f6f6;
@@ -1180,7 +1236,6 @@ p.attachment img {
 
 /* =Pagination
 -------------------------------------------------------------- */
-/*
 #pagination,
 #post-pagination,
 #posts-pagination {
@@ -1244,7 +1299,6 @@ p.attachment img {
 
 /* =Comments
 -------------------------------------------------------------- */
-/*
 #comments,
 #respond,
 .commentlist,
@@ -1404,7 +1458,6 @@ p.attachment img {
 
 /* =Archives
 -------------------------------------------------------------- */
-/*
 #archive-header,
 .page-title {
 	margin: 0 0 30px;
@@ -1441,7 +1494,6 @@ p.attachment img {
 
 /* =Sidebar
 -------------------------------------------------------------- */
-/*
 .widget {
 	margin-bottom: 30px;
 	width: 100%;
@@ -1599,7 +1651,6 @@ p.attachment img {
 
 /* =Footer
 -------------------------------------------------------------- */
-/*
 #footer {
 	border-top: 1px solid #000;
 	background: #444;
@@ -1624,7 +1675,6 @@ p.attachment img {
 
 /* =Sticky Footer
 -------------------------------------------------------------- */
-/*
 html, body {
 	height: 100%;
 	}
@@ -1650,7 +1700,6 @@ html, body {
 
 /* =Videos
 -------------------------------------------------------------- */
-/*
 video {
 	max-width: 100%;
 	height: auto;
@@ -1674,7 +1723,6 @@ video {
 
 /* =WordPress Core
 -------------------------------------------------------------- */
-/*
 .alignnone {
     margin: 5px 20px 20px 0;
 	}
@@ -1778,7 +1826,6 @@ a img.aligncenter {
 
 /* =Admin bar fix
 -------------------------------------------------------------- */
-/*
 #wp-admin-bar-theme_previews .ab-item { height: auto !important; }
 #admin-bar-premium-themes { float: left; }
 #admin-bar-premium-themes p { color: #000 !important; }
@@ -1789,7 +1836,6 @@ a img.aligncenter {
 
 /* =bbPress & BuddyPress
 -------------------------------------------------------------- */
-/*
 #bbpress-forums #bbp-your-profile fieldset label[for] {
 	width: 25%;
 	}
@@ -1854,7 +1900,6 @@ a img.aligncenter {
 
 /* =Responsive stuff
 -------------------------------------------------------------- */
-/*
 @media ( max-width: 960px ) {
 	.row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12{width:100%;margin-bottom:20px}
 	.row .row > div:last-child,.two-col-wrapper{margin-bottom:0 !important}
