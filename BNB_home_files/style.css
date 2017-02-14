@@ -501,7 +501,7 @@ select {
 			}
 
 			.menus ul ul li a:not(:last-child):after {
-				content: "\f0da";
+				content: "\f0d7";
 				}
 
 	.menus ul ul {
