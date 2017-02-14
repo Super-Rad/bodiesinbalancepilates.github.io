@@ -494,14 +494,14 @@ select {
 				}
 
 		.menus li a:not(:last-child):after {
-			content: "\f0d7"; /*arrow on menu*/
+			content: "\f10c"; /*arrow on menu \f0d7*/
 			font-family: FontAwesome;
 			float: right;
 			margin: 0 0 0 10px;
 			}
 
 			.menus ul ul li a:not(:last-child):after {
-				content: "\f0d7";
+				content: "\f0c8";
 				}
 
 	.menus ul ul {
