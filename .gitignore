@@ -1,0 +1,9 @@
+#ignore these folders
+bin/
+obj/
+
+#ignore these file types
+*.suo
+*.exe
+*.manifest
+*.csproj
